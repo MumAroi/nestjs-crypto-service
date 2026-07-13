@@ -18,8 +18,8 @@ export class CryptoService {
 
   encryptData(payload: string) {
     try {
-      const aesKey = crypto.randomBytes(32);
-      const iv = crypto.randomBytes(16);
+      const aesKey = crypto.randomBytes(32); // random AES key
+      const iv = crypto.randomBytes(16); // initialization vector
 
       const cipher = crypto.createCipheriv('aes-256-cbc', aesKey, iv);
       let encryptedPayload = cipher.update(payload, 'utf8', 'base64');

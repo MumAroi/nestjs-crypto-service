@@ -50,14 +50,4 @@ Swagger documentation: `http://localhost:3000/api-docs`
 ```bash
 # unit tests
 $ pnpm run test
-
-# e2e tests
-$ pnpm run test:e2e
-
-# test coverage
-$ pnpm run test:cov
-
-# lint and format
-$ pnpm run lint
-$ pnpm run format
 ```

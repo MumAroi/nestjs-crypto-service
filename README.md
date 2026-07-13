@@ -24,7 +24,9 @@ Copy `.env.example` to `.env` and update values as needed.
 ### Create RSA key pair
 
 Form url: `https://cryptotools.net/rsagen` 
+
 Rename private.example.key, public.example.key to private.key and public.key 
+
 Replace contents of private.key and public.key with your generated keys 
 
 ### Running the App
